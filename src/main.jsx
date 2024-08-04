@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <React.Suspense fallback="load">
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-          <BrowserRouter>
+          <BrowserRouter basename='/node_fs99_front_SergeiAntonenko'>
             <HelmetProvider>
               <App />
             </HelmetProvider>
